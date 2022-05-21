@@ -4,7 +4,7 @@
 
 比較兩個模型中一樣名稱的 param, 如果相同就 model2_dict 更新, 然後再讀取到 model2 中
  
-'''python
+'''python=
 checkpoint = torch.load("./mnist_cnn.pt")
 model_dict = checkpoint
 
